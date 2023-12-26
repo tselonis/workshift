@@ -1,0 +1,14 @@
+###
+# Create a user
+#
+POST http://localhost:8080/api/v1/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstName": "first_name1",
+  "lastName": "last_name1",
+  "address": "user_address1",
+  "phoneNumber": "33333333",
+  "email": "user1@gmail.com"
+}

@@ -1,0 +1,14 @@
+###
+# Create a user
+#
+POST http://localhost:8080/api/v1/shops
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "shop_name1",
+  "cvr": "cvr1",
+  "address": "shop_address1",
+  "phoneNumber": "11111111",
+  "email": "shop1@gmail.com"
+}
